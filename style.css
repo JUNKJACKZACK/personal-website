@@ -1,0 +1,23 @@
+
+body {
+	background-image: url(code-onscreen.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: red;
+	text-align: center;
+	border: 5px solid; color: mediumpurple;
+	cursor: pointer;
+	font-family: Tahoma;
+}
+
+p {
+	color: white;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
