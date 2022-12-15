@@ -1,0 +1,37 @@
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(code-onscreen.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: red;
+	text-align: center;
+	border: 5px solid; color: mediumpurple;
+	cursor: pointer;
+}
+
+p {
+	color: white;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext2 {
+	color: white;
+}
+
+.webtext {
+	border: 5px solid red;
+}
+
+#div1 {
+	background: rgba(0,0,255, 0.2);
+}
+
