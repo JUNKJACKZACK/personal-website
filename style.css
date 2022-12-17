@@ -1,15 +1,14 @@
 
 body {
-	background-image: url(code-onscreen.jpg);
-	background-size: cover;
+	margin: 0;
+}
+
+header {
+	color: black;
 }
 
 h2 {
-	color: red;
-	text-align: center;
-	border: 5px solid; color: mediumpurple;
-	cursor: pointer;
-	font-family: Tahoma;
+	
 }
 
 p {
@@ -19,5 +18,6 @@ p {
 li {
 	list-style: none;
 	display: inline-block;
+	justify-content: center;
 }
 
