@@ -31,3 +31,12 @@ li {
 	display: inline-block;
 	padding: 5px 20px;
 }
+
+
+.chunk {
+
+}
+
+.chunk-photo {
+	background-size: contain;
+}
