@@ -1,23 +1,33 @@
-
 body {
 	margin: 0;
+	font-family: Tahoma;
 }
 
-header {
-	color: black;
+
+.full-nav {
+	display: flex;
+	font-family: Tahoma;
+	color: #ffcccc;
+	text-shadow: black 0 -2px;
+	background-color: #00ccff;
+	justify-content: space-around;
 }
 
-h2 {
-	
+
+.logo {
+	align-content: flex-start;
 }
 
-p {
+
+.nav-menu {
+	letter-spacing: 1px;
 	color: white;
+	text-shadow: none;
 }
+
 
 li {
 	list-style: none;
 	display: inline-block;
-	justify-content: center;
+	padding: 5px 20px;
 }
-
