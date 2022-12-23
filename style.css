@@ -1,42 +1,39 @@
 body {
 	margin: 0;
-	font-family: Tahoma;
 }
 
 
-.full-nav {
+.my-nav {
 	display: flex;
-	font-family: Tahoma;
-	color: #ffcccc;
-	text-shadow: black 0 -2px;
-	background-color: #00ccff;
-	justify-content: space-around;
+	background-color: #46ACC2;
+	padding: 16px;
+	font-family: sans-serif;
 }
 
 
-.logo {
-	align-content: flex-start;
-}
-
-
-.nav-menu {
-	letter-spacing: 1px;
+.nav-logo {
 	color: white;
-	text-shadow: none;
 }
 
 
-li {
+.nav-menu ul{
+	display: inline-flex;
+	color: white;
 	list-style: none;
-	display: inline-block;
-	padding: 5px 20px;
+	padding: 8px;
 }
 
 
-.chunk {
-
+.nav-menu a{
+	text-decoration: none;
 }
 
-.chunk-photo {
-	background-size: contain;
-}
+
+
+
+
+
+
+
+
+
