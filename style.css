@@ -1,39 +1,54 @@
 body {
 	margin: 0;
+	font-family: Tahoma;
 }
 
 
-.my-nav {
+
+.nav-bar {
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 10px;
 	display: flex;
-	background-color: #46ACC2;
-	padding: 16px;
-	font-family: sans-serif;
+	justify-content: space-between;
+	align-content: center;
+	background-color: #3c199c;
 }
 
 
-.nav-logo {
-	color: white;
+.nav-brand {
+	color: ghostwhite;
 }
 
-
-.nav-menu ul{
-	display: inline-flex;
-	color: white;
+.nav-links {
+	display: flex;
 	list-style: none;
-	padding: 8px;
+	padding-right: 30px;
 }
 
-
-.nav-menu a{
+.nav-item a{
+	display: inline-block;
+	padding: 10px 30px;
 	text-decoration: none;
+	color: ghostwhite;
 }
 
 
+.section-one img {
+	width: 100%;
+}
 
 
+.section-one {
+	position: relative;
+	text-align: center;
+}
 
 
-
-
-
-
+.centered-text {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
