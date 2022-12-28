@@ -48,7 +48,15 @@ body {
 .centered-text {
 	color: white;
 	position: absolute;
+	letter-spacing: 0.5px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+
+.purple-background {
+	background-color: #3c199c;
+	padding: 2px ;
+	border-radius: 20px;
 }
